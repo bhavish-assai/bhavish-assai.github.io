@@ -1,0 +1,59 @@
+ h1 {
+     margin-top: 3vw;
+     padding: 24;
+   font-family: Raleway;
+    color: black;
+    font-weight: bold;
+    font-size: 5vw;
+    vertical-align: bottom;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    padding: 12;
+    overflow: hidden;
+    background-color: #222222;
+
+}
+
+.header a {
+    height: 100%;
+    padding: 12;
+    font-weight: 900;
+    font-family: Raleway;
+    font-size: larger;
+    
+    color: rgb(224, 224, 224);
+   
+
+}
+
+.header a:hover{
+    color: white;
+}
+
+.circleAvatar{
+    border: 5px solid black;
+    width: 12vw;
+    height: 12vw;
+    padding: 12px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:500px){
+    .header a{
+        display: block;
+        text-align: left;
+        float: none;
+    }
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-Regular.ttf);
+   
+}
+
