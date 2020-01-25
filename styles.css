@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+*{
+  font-family: 'Bangers', cursive;
+  margin: 0px;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 14px;
+}
+.logo{
+  padding: 2px;
+ font-weight: bold;
+
+}
+.header a {
+  font-size: 16px;
+
+  text-decoration: none;
+  float: left;
+
+  color: black;
+}
+
+.header-right{
+
+  float: right;
+
+}
+.header-right a:hover{
+  background-color: darkgrey;
+}
+.header-right a{
+  padding: 4px;
+  margin-right: 36px;
+  border-radius: 4px;
+}
+
+img{
+  width: 100%;
+  height: 650px;
+}
